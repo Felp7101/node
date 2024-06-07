@@ -1,0 +1,19 @@
+{
+  "name": "node-projeto",
+  "version": "1.0.0",
+  "description": "meu primeiro projeto de conceitos para entender o node",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "author": "felipe",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.15.0",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.15.0"
+  }
+}
